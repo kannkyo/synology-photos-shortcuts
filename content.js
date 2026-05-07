@@ -62,6 +62,14 @@ function addToAlbum() {
   }
 }
 
+// Action: Add Favorite (Shift + F)
+function addFavorite() {
+  const favoriteButton = document.querySelector('button[data-testid="toolbar-favorite-button"]');
+  if (favoriteButton) {
+    favoriteButton.click();
+  }
+}
+
 // Action: Open Delete Dialog (Shift + Delete or Shift + Back NORMSPACE)
 function deleteDialog() {
   const selectionButton = document.querySelector('.synofoto-selected-bar-button[data-tooltip-content="Delete"]');
@@ -103,6 +111,7 @@ const actions = {
   'T': addTags,
   'R': rotate,
   'A': addToAlbum,
+  'F': addFavorite,
   'D': download,
   'Tab': changeView,
   'Delete': deleteDialog,
