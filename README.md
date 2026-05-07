@@ -14,7 +14,7 @@ Synology didn’t add them. This extension does.
 - `Shift + D`: Download (original, not compressed)
 - `Shift + T`: Add tags
 - `Shift + A`: Add to album
-- `Shift + F`: Add favorite
+- `Shift + F`: Add to favorites
 - `Shift + Tab`: Switch folder / timeline view
 - (NEW) `1` - `5`: Rate photo (1-5 stars)
 
